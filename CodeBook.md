@@ -27,7 +27,9 @@ the training data and 30% the test data.
 	X_test.txt			A 2947x561 table that provides measurements of the 561 features. All values are normalized and bounded within [-1,1].
 	y_test.txt			A 2947x1 table. The single column contains integer data with 6 unique values, namely 6 activities.
 
-The original data set also provided a few other raw data files that were not used in this assignment and not described here.
+The acceleration measurements are in standard gravity units 'g'; angular velocity units are radians/second. Features are normalized and bounded within [-1,1].
+
+The original data set also provided a few other raw measurements data files that were not used in this assignment and not described here.
 
 
 The required tasks for the assignment are listed below:
